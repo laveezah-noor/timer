@@ -1,7 +1,9 @@
 body {
     height: 100%;
     width: 100%;
-    background-color: #fff;
+    background-image: url(https://thumbs.dreamstime.com/t/sunset-lake-vector-landscape-background-background-sky-pink-water-reflection-clouds-sunset-evening-81156226.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
   }
   
   #countdown {
