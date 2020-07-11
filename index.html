@@ -14,22 +14,22 @@
             <svg width="500" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
               <g transform="translate(110,110)">
                 <ellipse stroke-dasharray="2,2" ry="90" rx="90" id="svg_1" stroke-width="7" stroke="#000" fill="none"/>
-                <ellipse ry="80" rx="80" id="svg_4" stroke-width="11" stroke="#5B9BA2" fill="none"/>
+                <ellipse ry="80" rx="80" id="svg_4" stroke-width="11" stroke="#5B9BA2" fill="rgba(255, 255, 255, 0.582)"/>
                 <!-- <ellipse ry="100" rx="100" id="svg_5" stroke-width="4" stroke="#84d3db" fill="none"/> -->
                 </g>
              </svg>
           </div>
-        <div class="controlls">
-            <div class="display-remain-time">
+        <div class="flex-column align-middle d-flex align-items-center justify-content-center controlls mx-auto">
+            <div class="display-remain-time mx-auto">
                 <span id="min">00</span>
                 <span>:</span>
                 <span id="sec">00</span>
                 <span>:</span>
                 <span id="msec">00</span>
             </div>
-            <div class="d-inline"><button class="play" id="pause" onclick="control()"></button>
-            <button id="reset" class="reset" onclick="reset()"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
-                width="40" height="40"
+            <div class="d-flex"><button class="col play" id="pause" onclick="control()"></button>
+            <button id="reset" class="col mt-2 reset" onclick="reset()"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
+                width="35" height="35"
                 viewBox="0 0 226 226"
                 style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,226v-226h226v226z" fill="none"></path><g fill="#f7958e"><path d="M18.83333,18.83333l27.67985,27.67985c-17.07416,17.0325 -27.67985,40.52232 -27.67985,66.48682c0,51.9235 42.24317,94.16667 94.16667,94.16667c51.9235,0 94.16667,-42.24317 94.16667,-94.16667c0,-51.9235 -42.24317,-94.16667 -94.16667,-94.16667v18.83333c41.53692,0 75.33333,33.79642 75.33333,75.33333c0,41.53692 -33.79642,75.33333 -75.33333,75.33333c-41.53692,0 -75.33333,-33.79642 -75.33333,-75.33333c0,-20.77308 8.47949,-39.57565 22.12549,-53.20784l24.95784,24.95784v-65.91667z"></path></g></g></svg></button></div>
           </div>
