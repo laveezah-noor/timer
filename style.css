@@ -1,0 +1,81 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+  }
+  
+  #countdown {
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+  }
+  
+  #countdown-number {
+    color: white;
+    display: inline-block;
+    line-height: 40px;
+  }
+  
+
+  .controlls {
+    position: absolute;
+    left: 102px;
+    top: 170px;
+    text-align: center;
+  }
+  
+  .display-remain-time {
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 65px;
+    color: #F7958E;
+  }
+  
+  #pause {
+    outline: none;
+    background: transparent;
+    border: none;
+    margin-top: 10px;
+    width: 50px;
+    height: 50px;
+    position: relative;
+  }
+
+  .reset{
+      border: none;
+      background: none;
+      width: 50px;
+      height: 50px;
+      color: #F7958E;
+  }
+  
+  .play::before {
+    display: block;
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 22px solid #F7958E;
+  }
+  
+  .pause::after {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    width: 15px;
+    height: 30px;
+    background-color: transparent;
+    border-radius: 1px;
+    border: 5px solid #F7958E;
+    border-top: none;
+    border-bottom: none;
+  }
+  
+  #pause:hover { opacity: 0.8; }
+   
